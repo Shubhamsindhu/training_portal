@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trainer Info</title>
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-logo">Tech With Ratan</div>
+
+    <ul class="nav-links">
+      <li><a href="{% url 'home' %}">Home</a></li>
+        <li><a href="{% url 'get_courses' %}">Courses</a></li>
+        <li><a href="{% url 'get_trainers' %}">Trainers</a></li>
+        <li><a href="{% url 'get_students' %}">Students</a></li>
+
+    </ul>
+</nav>
+    <div>
+        <table >
+            <tr>
+              <th>full name</th>
+              <th>Expertise</th>
+              <th>Email</th>
+              <th>trainer photo</th>
+            </tr>
+
+            {% for trainer in trainers %}
+            <tr>
+              <td>{{trainer.full_name}}</td>
+              <td>{{trainer.expertise}}</td>
+              <td>{{trainer.email}}</td>
+              <td>Not available</td>
+            </tr>
+            {% endfor %}
+          </table>
+    </div>
+    
+</body>
+</html>

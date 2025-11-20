@@ -1,0 +1,6 @@
+Question --->Explain in your own simple words, what kind of queries would you like to perform on Students, Courses, or Trainers? 
+Ans--> we can try like ->trainer who don't have any student?, how many students are enrolled in python course?
+
+Question ---> Explain in your own simple words, if you were building this for a real institute, what feature would you add next? 
+
+Ans ---> I would use User build in module and customize it.
