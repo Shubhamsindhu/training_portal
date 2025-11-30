@@ -4,3 +4,12 @@ Ans--> we can try like ->trainer who don't have any student?, how many students 
 Question ---> Explain in your own simple words, if you were building this for a real institute, what feature would you add next? 
 
 Ans ---> I would use User build in module and customize it.
+
+
+I want the driver to follow lane discipline. Birpan had to be warned to follow 
+lane discipline and not to break traffic signal after he took my car to the middle 
+of the road from the extreme left lane for a right turn just to get ahead of all cars.
+ he put my car at risk as he in the middle of the road and traffic was moving from other directions.
+  he thinks too much, Borderline rash, 
+  because at 12am he need not honk and rush to get to a destination as there is minimum traffic already.
+

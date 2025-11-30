@@ -1,0 +1,7 @@
+<h3>Are you sure you want to delete {{ trainer.full_name }}?</h3>
+
+<form method="POST">
+    {% csrf_token %}
+    <button class="btn btn-danger">Delete</button>
+    <a href="{% url 'get_trainers'  %}" class="btn btn-secondary">Cancel</a>
+</form>

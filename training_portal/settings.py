@@ -37,7 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    #new app added
     'academy',
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -123,7 +126,13 @@ STATICFILES_DIRS = [   #where is   all the static files.
 
 STATIC_ROOT=BASE_DIR /"static"  # to tell where is static files to server collect static
 
+
+
+MEDIA_URL = 'media/'
+MEDIA_ROOT=BASE_DIR /"media" 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+LOGIN_URL='/login/'
